@@ -1,0 +1,12 @@
+.lottie {
+    width: 300%;
+}
+
+@media (max-width: 768px) {
+    .lottie {
+        width: 100%;
+    }
+    .about{
+        text-align: center;
+    }
+}

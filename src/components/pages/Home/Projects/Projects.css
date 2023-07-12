@@ -1,0 +1,17 @@
+.image-container {
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+  }
+  
+  .image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+  }
+  
+  .image-container:hover img {
+    transform: translateY(-20%);
+  }
+  

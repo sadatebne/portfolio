@@ -1,0 +1,19 @@
+.banner{
+    position: relative;
+}
+.banner-img{
+    position: absolute;
+    top: -200px;
+    right: 30px;
+}
+
+@media screen  {
+    .banner{
+        
+    }
+    .banner-img{
+        
+        top: -200px;
+        right: 30px;
+    } 
+}
